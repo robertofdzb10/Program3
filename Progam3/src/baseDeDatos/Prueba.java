@@ -1,4 +1,4 @@
-package BaseDeDatos;
+package baseDeDatos;
 
 public class Prueba {
 

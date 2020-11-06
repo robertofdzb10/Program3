@@ -1,4 +1,4 @@
-package Pruebas;
+package pruebas;
 /** Utilidades de Strings de ejemplo
 
  * Clase preparada para hacer con ella pruebas unitarias con JUnit

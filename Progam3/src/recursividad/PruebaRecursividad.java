@@ -1,4 +1,4 @@
-package Recursividad;
+package recursividad;
 
 public class PruebaRecursividad {
 

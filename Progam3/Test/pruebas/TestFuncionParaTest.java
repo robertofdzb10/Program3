@@ -1,4 +1,4 @@
-package Pruebas;
+package pruebas;
 
 import static org.junit.Assert.assertEquals;
 
@@ -9,7 +9,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
-import Clase.FuncionParaTest;
+
+import clase.FuncionParaTest;
 
 @RunWith(value = Parameterized.class)
 public class TestFuncionParaTest {

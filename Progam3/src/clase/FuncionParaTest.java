@@ -1,4 +1,4 @@
-package Clase;
+package clase;
 
 
 

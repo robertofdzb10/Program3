@@ -1,4 +1,4 @@
-package Logger;
+package logger00;
 
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
@@ -7,18 +7,18 @@ import java.awt.event.WindowListener;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class VentanaLogger extends JFrame {
+public class VentanaLogger00 extends JFrame {
 	
 	private JFrame ventanaLogger;
 	
-	public VentanaLogger() {
+	public VentanaLogger00() {
 		
 	ventanaLogger = new JFrame();
 	//1. Configuracion de la ventana
 	
 	setDefaultCloseOperation( JFrame.DISPOSE_ON_CLOSE );
 	setSize(600, 400); //Tamaño ventana
-	setTitle("Logger"); //No necesita getContentPane, ya que se hace sobre la ventana
+	setTitle("Logger00"); //No necesita getContentPane, ya que se hace sobre la ventana
 	
 	
 	//2. Creación de contenedores (paneles) y componenetes
@@ -35,8 +35,8 @@ public class VentanaLogger extends JFrame {
 		
 		@Override
 		public void windowClosed(WindowEvent e) {
-			MainLogger.log.println("Fin de programa.");
-			MainLogger.log.close();
+			MainLogger00.log.println("Fin de programa.");
+			MainLogger00.log.close();
 		}
 	});
 	

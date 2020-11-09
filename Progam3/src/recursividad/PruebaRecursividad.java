@@ -2,6 +2,8 @@ package recursividad;
 
 public class PruebaRecursividad {
 
+	public int contador;
+	
 	public static void main(String[] args) {
 		subir(1);
 		//bajar(3000);
@@ -9,15 +11,39 @@ public class PruebaRecursividad {
 		//Multiplicacíon en función de la suma
 		System.out.println( producto( 0, 5));
 		recorrerString("Hola" , 0);
+		System.out.println("\n");
+		System.out.println( stringAlReves( "Hola al revés" ));
+		System.out.println( fib(46) );
+	}
+	public static String stringAlReves( String string ) {
+		if (string.isEmpty()) {
+			return "";
+		} else {
+			return stringAlReves(string.substring(1)) + string.charAt(0);
+		}
+	}
+	
+	//Fibonacci: 1, 1, 2, 3, 5, 8...
+	//fib(n) = fib(n-1) + fib(n-2)
+	public static int fib(int n) {
+		if(n==1) {
+		return 1;
+		
+		} else if(n==2) {
+		return 1;
+		
+		}else {
+			return fib(n-1) + fib(n-2);
+		}
 	}
 	
 	private static void recorrerString( String string, int indice) {
 		if (indice == string.length()) {
 			return;
 		} else {
-			System.out.print(string.charAt(indice));
+			System.out.print(string.charAt(indice));//Sucede en orden directo
 			recorrerString(string, indice+1);
-			System.out.print(string.charAt(indice));
+			System.out.print(string.charAt(indice));//Sucede en orden inverso
 		}
 	}
 	

@@ -1,4 +1,4 @@
-package Pruebas;
+package pruebas;
 
 import static org.junit.Assert.*;
 
@@ -6,7 +6,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import Clase.FuncionParaTest;
+import clase.FuncionParaTest;
 
 public class TesFuncionParaTest {
 	

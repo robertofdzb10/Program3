@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-11-06T18:23:01</date>
+  <millis>1604683381610</millis>
+  <sequence>0</sequence>
+  <logger>prueba-logger</logger>
+  <level>INFO</level>
+  <class>logger02.MainLogger02</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio Logger Fri Nov 06 18:23:01 CET 2020</message>
+</record>
+<record>
+  <date>2020-11-06T18:23:02</date>
+  <millis>1604683382514</millis>
+  <sequence>1</sequence>
+  <logger>prueba-logger</logger>
+  <level>FINER</level>
+  <class>logger02.VentanaLogger02$2</class>
+  <method>actionPerformed</method>
+  <thread>16</thread>
+  <message>Se esta comenzando el juego.</message>
+</record>
+<record>
+  <date>2020-11-06T18:23:03</date>
+  <millis>1604683383817</millis>
+  <sequence>2</sequence>
+  <logger>prueba-logger</logger>
+  <level>INFO</level>
+  <class>logger02.VentanaLogger02$1</class>
+  <method>windowClosed</method>
+  <thread>16</thread>
+  <message>Fin de programa.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-11-06T18:25:18</date>
+  <millis>1604683518557</millis>
+  <sequence>0</sequence>
+  <logger>prueba-logger</logger>
+  <level>INFO</level>
+  <class>logger02.MainLogger02</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio Logger Fri Nov 06 18:25:18 CET 2020</message>
+</record>
+<record>
+  <date>2020-11-06T18:25:19</date>
+  <millis>1604683519754</millis>
+  <sequence>1</sequence>
+  <logger>prueba-logger</logger>
+  <level>FINER</level>
+  <class>logger02.VentanaLogger02$2</class>
+  <method>actionPerformed</method>
+  <thread>16</thread>
+  <message>Se esta comenzando el juego.</message>
+</record>
+<record>
+  <date>2020-11-06T18:25:21</date>
+  <millis>1604683521167</millis>
+  <sequence>2</sequence>
+  <logger>prueba-logger</logger>
+  <level>INFO</level>
+  <class>logger02.VentanaLogger02$1</class>
+  <method>windowClosed</method>
+  <thread>16</thread>
+  <message>Fin de programa.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-11-06T18:56:17</date>
+  <millis>1604685377675</millis>
+  <sequence>0</sequence>
+  <logger>prueba-logger</logger>
+  <level>INFO</level>
+  <class>logger02.MainLogger02</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio Logger Fri Nov 06 18:56:17 CET 2020</message>
+</record>
+<record>
+  <date>2020-11-06T18:56:18</date>
+  <millis>1604685378659</millis>
+  <sequence>1</sequence>
+  <logger>prueba-logger</logger>
+  <level>INFO</level>
+  <class>logger02.VentanaLogger02$1</class>
+  <method>windowClosed</method>
+  <thread>16</thread>
+  <message>Fin de programa.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-11-06T19:09:26</date>
+  <millis>1604686166236</millis>
+  <sequence>0</sequence>
+  <logger>prueba-logger</logger>
+  <level>INFO</level>
+  <class>logger03.MainLogger03</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio Logger Fri Nov 06 19:09:26 CET 2020</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-11-06T19:09:37</date>
+  <millis>1604686177790</millis>
+  <sequence>0</sequence>
+  <logger>prueba-logger</logger>
+  <level>INFO</level>
+  <class>logger03.MainLogger03</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio Logger Fri Nov 06 19:09:37 CET 2020</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-11-06T19:10:50</date>
+  <millis>1604686250472</millis>
+  <sequence>0</sequence>
+  <logger>prueba-logger</logger>
+  <level>INFO</level>
+  <class>logger03.MainLogger03</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio Logger Fri Nov 06 19:10:50 CET 2020</message>
+</record>
+</log>

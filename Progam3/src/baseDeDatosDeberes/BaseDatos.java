@@ -1,4 +1,4 @@
-package BaseDeDatosDeberes;
+package baseDeDatosDeberes;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

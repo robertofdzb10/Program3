@@ -1,4 +1,4 @@
-package BaseDeDatosDeberes;
+package baseDeDatosDeberes;
 
 import java.awt.*;
 import java.awt.event.*;

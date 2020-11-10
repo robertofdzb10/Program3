@@ -1,8 +1,10 @@
-package Pruebas;
+package pruebas;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import pruebas.UtilsString;
 
 public class UtilsStringTest {
 

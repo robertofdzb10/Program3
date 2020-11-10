@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-11-06T19:16:43</date>
+  <millis>1604686603428</millis>
+  <sequence>0</sequence>
+  <logger>prueba-logger</logger>
+  <level>INFO</level>
+  <class>logger03.MainLogger03</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio Logger Fri Nov 06 19:16:43 CET 2020</message>
+</record>
+<record>
+  <date>2020-11-06T19:16:43</date>
+  <millis>1604686603433</millis>
+  <sequence>1</sequence>
+  <logger>prueba-logger</logger>
+  <level>SEVERE</level>
+  <class>logger03.MainLogger03</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Error grave</message>
+  <exception>
+    <message>java.lang.NullPointerException</message>
+    <frame>
+      <class>logger03.MainLogger03</class>
+      <method>main</method>
+      <line>40</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-11-06T19:17:34</date>
+  <millis>1604686654124</millis>
+  <sequence>0</sequence>
+  <logger>prueba-logger</logger>
+  <level>INFO</level>
+  <class>logger03.MainLogger03</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Inicio Logger Fri Nov 06 19:17:34 CET 2020</message>
+</record>
+<record>
+  <date>2020-11-06T19:17:34</date>
+  <millis>1604686654129</millis>
+  <sequence>1</sequence>
+  <logger>prueba-logger</logger>
+  <level>SEVERE</level>
+  <class>logger03.MainLogger03</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Error grave</message>
+  <exception>
+    <message>java.lang.NullPointerException</message>
+    <frame>
+      <class>logger03.MainLogger03</class>
+      <method>main</method>
+      <line>40</line>
+    </frame>
+  </exception>
+</record>
+</log>

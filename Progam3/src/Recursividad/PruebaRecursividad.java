@@ -17,6 +17,7 @@ public class PruebaRecursividad {
 		} else {
 			System.out.print(string.charAt(indice));
 			recorrerString(string, indice+1);
+		
 			System.out.print(string.charAt(indice));
 		}
 	}

@@ -1,4 +1,4 @@
-package baseDeDatos;
+package BaseDeDatos;
 //package BaseDeDatos;
 //
 //import java.sql.*;

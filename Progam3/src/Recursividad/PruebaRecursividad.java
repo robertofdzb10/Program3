@@ -1,4 +1,4 @@
-package recursividad;
+package Recursividad;
 
 public class PruebaRecursividad {
 
@@ -13,8 +13,39 @@ public class PruebaRecursividad {
 		recorrerString("Hola" , 0);
 		System.out.println("\n");
 		System.out.println( stringAlReves( "Hola al revés" ));
-		System.out.println( fib(46) );
+		System.out.println( fib(10) );
+		System.out.println( calculoDobleces( 384400000, 0.0001, 0));
+		int[] array = new int[] {1,3,4,5,8,9,12,18,19,21};
+		int buscado = 2;
+		int donde = buscaEnVector( buscado , array, 0,  ((array.length)-1));
+		System.out.println( donde );
+		System.out.println(array.length-1);
 	}
+	
+
+	private static int buscaEnVector(int valor, int[] array, int ini, int fin) {
+		if (ini>fin) return -1; // Caso base : no encontrando
+		int mitad = (ini + fin) / 2;
+		if(array[mitad] == valor) {// Caso base : encontrando
+			return mitad;
+		} else {
+			if( array[mitad]>valor) { //A la izquieda  ( el que hay en medio es > que el buscado)
+				return buscaEnVector( valor, array, ini, mitad -1);
+			} else { //A la derecha ( el que hay en medio es < que el buscado)
+				return buscaEnVector(valor, array, mitad +1, fin);
+			}
+		}
+			
+	}
+	
+	private static double calculoDobleces(int distTL, double grosor, int numDob) {
+		if(grosor>= distTL) {
+		return numDob;
+		} else {
+			return calculoDobleces(distTL, grosor*2, numDob+1);
+		}
+	}
+
 	public static String stringAlReves( String string ) {
 		if (string.isEmpty()) {
 			return "";
@@ -22,6 +53,7 @@ public class PruebaRecursividad {
 			return stringAlReves(string.substring(1)) + string.charAt(0);
 		}
 	}
+
 	
 	//Fibonacci: 1, 1, 2, 3, 5, 8...
 	//fib(n) = fib(n-1) + fib(n-2)

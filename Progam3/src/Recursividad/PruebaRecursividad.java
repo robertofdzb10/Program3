@@ -20,9 +20,27 @@ public class PruebaRecursividad {
 		int donde = buscaEnVector( buscado , array, 0,  ((array.length)-1));
 		System.out.println( donde );
 		System.out.println(array.length-1);
+		hanoi( 1, 'A', 'C', 'B');
 	}
 	
-
+	//Resolver torre de hanoi de tamaño N de varilla origen -> destino, auxiliar a
+	// -Si N == 1, mover disco de varilla orgien -> destino
+	// -Si no
+	//   Resolver torre N-1 varilla origen -> a, auxiliar d
+	//   Mover disco N origen -> destino
+	//   Resolver torre N-1 varilla a-> d, auxiliar o
+	//N NO PUEDE SER MENOR QUE 1!
+	private static void hanoi( int n, char origen, char destino, char auxiliar) {
+		if(n==1) {
+			System.out.println("Mover 1 de " + origen + " a " + destino);
+		} else {
+			hanoi( n-1, origen, auxiliar, destino);
+			System.out.println( "Mover " + n + " de " + origen + " a " + destino);
+			hanoi( n-1, auxiliar, destino, origen);
+		}
+	}
+	
+	
 	private static int buscaEnVector(int valor, int[] array, int ini, int fin) {
 		if (ini>fin) return -1; // Caso base : no encontrando
 		int mitad = (ini + fin) / 2;
@@ -35,6 +53,8 @@ public class PruebaRecursividad {
 				return buscaEnVector(valor, array, mitad +1, fin);
 			}
 		}
+		
+		
 			
 	}
 	

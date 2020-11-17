@@ -29,7 +29,7 @@ public class PruebaRecursividad {
 	//   Resolver torre N-1 varilla origen -> a, auxiliar d
 	//   Mover disco N origen -> destino
 	//   Resolver torre N-1 varilla a-> d, auxiliar o
-	//N NO PUEDE SER MENOR QUE 1!
+	//NO PUEDE SER MENOR QUE 1!
 	private static void hanoi( int n, char origen, char destino, char auxiliar) {
 		if(n==1) {
 			System.out.println("Mover 1 de " + origen + " a " + destino);

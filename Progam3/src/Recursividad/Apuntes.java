@@ -4,9 +4,14 @@ package Recursividad;
 
 import java.awt.BorderLayout;
 import java.awt.event.KeyEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
-import RunnerDino.Dino;
+import javax.swing.event.InternalFrameAdapter;
+import javax.swing.event.InternalFrameEvent;
 
+import examen.ord202001.TablaAnalisis;
+import examen.ord202001.VentanaTabla;
 public class Apuntes {
 
 }
@@ -285,3 +290,46 @@ public class Apuntes {
 //Ejemplo init -> new int[] { vert[0].x, vert[1].x, vert[2].x },
 //seleccionado = null; , recalculamos, repintamos.
 ///float <=
+
+//addInternalFrameListener( new InternalFrameAdapter() {
+//	
+//	@Override
+//	public void internalFrameActivated(InternalFrameEvent e) {
+//		if (tablaDatos instanceof TablaAnalisis) {
+//			TablaAnalisis tabalaAnalisis = (TablaAnalisis) tablaDatos;
+//			if (tabalaAnalisis.getGrafico() != null) {
+//				tabalaAnalisis.getGrafico().getJFrame().setVisible(true);
+//			}
+//		}
+//		
+//	}
+//});
+//tDatos.addMouseListener( new MouseAdapter() {
+//	@Override
+//	public void mouseClicked(MouseEvent e) {
+//		if (e.getClickCount()>=2) {
+//			int fila = tDatos.rowAtPoint( e.getPoint() );
+//			int columna = tDatos.columnAtPoint( e.getPoint() );
+//			if (dobleClick!=null) dobleClick.evento( VentanaTabla.this, fila, columna );
+//		}
+//	}
+//	//T5
+//	int fila= -1; //-1 por que fila 0 existe.
+//	int columna = -1; //-1 por que columna 0 existe.
+//	@Override
+//	public void mousePressed(MouseEvent e) {
+//		fila = tDatos.rowAtPoint( e.getPoint() ); //Devuelve la fila en la cual se encuentra el ratón.
+//		columna = tDatos.columnAtPoint( e.getPoint()); //Devuelve la columna en la cual se encuentra el ratón.
+//	}
+//	public void mouseReleased(MouseEvent e) {
+//		int filaDestino = tDatos.rowAtPoint( e.getPoint());
+//		int columnaDestino = tDatos.columnAtPoint( e.getPoint() );
+//		if ( fila >= 0 && columna >= 0 && filaDestino >= 0 && columnaDestino >= 0) { //A habido un Pressed y ningun error.
+//			Object o1 = tablaDatos.get(fila, columna);
+//			Object o2 = tablaDatos.get(filaDestino, columnaDestino);
+//			if (o1 != null && o2 != null && o1.getClass() == o2.getClass()) {
+//				tablaDatos.set(fila, columna, o2);
+//				tablaDatos.set(filaDestino, columnaDestino, o2);					}
+//		}
+//	}
+//});

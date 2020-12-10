@@ -1,5 +1,7 @@
 package Recursividad;
 
+import javax.swing.JLabel;
+
 public class PruebaRecursividad {
 
 	public int contador;
@@ -21,7 +23,13 @@ public class PruebaRecursividad {
 		System.out.println( donde );
 		System.out.println(array.length-1);
 		hanoi( 1, 'A', 'C', 'B');
+		
+		//
+		
 	}
+	
+
+	
 	
 	//Resolver torre de hanoi de tamaño N de varilla origen -> destino, auxiliar a
 	// -Si N == 1, mover disco de varilla orgien -> destino

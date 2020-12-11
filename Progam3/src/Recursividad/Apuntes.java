@@ -3,12 +3,17 @@
 package Recursividad;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.Font;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
+import javax.swing.JTable;
 import javax.swing.event.InternalFrameAdapter;
 import javax.swing.event.InternalFrameEvent;
+import javax.swing.table.DefaultTableCellRenderer;
 
 import examen.ord202001.TablaAnalisis;
 import examen.ord202001.VentanaTabla;
@@ -331,5 +336,22 @@ public class Apuntes {
 //				tablaDatos.set(fila, columna, o2);
 //				tablaDatos.set(filaDestino, columnaDestino, o2);					}
 //		}
+//	}
+//});
+
+//tDatos.setDefaultRenderer( Object.class, new DefaultTableCellRenderer() {
+//	Font font = new Font("Arial",Font.PLAIN, 14);
+//	@Override
+//	public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column) {
+//		Component c = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
+//		c.setFont(font);
+//		if(hasFocus) {
+//			c.setForeground(Color.cyan);
+//		} else if(isSelected) {
+//			c.setForeground(Color.yellow);
+//		} else {
+//			c.setForeground(Color.black);
+//		}
+//		return c;
 //	}
 //});
